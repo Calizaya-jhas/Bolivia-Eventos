@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EVENTOS BOLIVIA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+
+<header id="siteHeader">
+  <div class="container nav-wrap">
+    <a href="#inicio" class="logo">EVENTOS <span>BOLIVIA</span></a>
+    <nav>
+      <ul id="navList">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#espacios">Espacios</a></li>
+        <li><a href="#eventos">Eventos</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <button class="burger" id="burgerBtn" aria-label="Abrir menú">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<section class="hero" id="inicio">
+ <video class="hero-video" autoplay muted loop playsinline>
+  <source src="Eventos.mp4" type="video/mp4">
+</video>
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content container">
+    <span class="eyebrow eyebrow-light">Salón de eventos</span>
+    <h1>EVENTOS BOLIVIA<br></h1>
+    <p class="hero-tagline" id="heroTagline">Momentos únicos que se vuelven inolvidables</p>
+    <div class="hero-actions">
+      <a href="#contacto" class="btn btn-gold">Consultar Disponibilidad</a>
+      <a href="#espacios" class="btn btn-ghost">Conocer el Salón</a>
+    </div>
+  </div>
+
+  <button class="hero-arrow hero-prev" id="heroPrev" aria-label="Anterior">&#10094;</button>
+  <button class="hero-arrow hero-next" id="heroNext" aria-label="Siguiente">&#10095;</button>
+
+  <div class="hero-dots" id="heroDots">
+    <span class="hero-dot active"></span>
+    <span class="hero-dot"></span>
+    <span class="hero-dot"></span>
+    <span class="hero-dot"></span>
+  </div>
+
+  <div class="scroll-cue">
+    <span></span>
+    <em>Desliza</em>
+  </div>
+</section>
+
+<div class="divider"><svg viewBox="0 0 200 20" class="divider-svg"><path d="M0 10 C 40 -5, 60 25, 100 10 C 140 -5, 160 25, 200 10" fill="none" stroke="currentColor" stroke-width="1"/><circle cx="100" cy="10" r="3" fill="currentColor"/></svg></div>
+
+<section class="section welcome reveal" id="bienvenidos">
+  <div class="container welcome-grid">
+    <div class="welcome-img-wrap">
+      <img src="Imagen29.png" alt="Salón elegante en Santa Cruz, Bolivia">
+      <div class="welcome-frame"></div>
+    </div>
+    <div class="welcome-text">
+      <span class="eyebrow">Bienvenidos</span>
+      <h2>Un local para todo<br>tipo de celebraciones</h2>
+      <p>Celebra bodas, cumpleaños, quinceañeros, bautizos, aniversarios, eventos corporativos y mucho más en un salón elegante, amplio y con un ambiente único.</p>
+      <p>Disfruta de un ambiente elegante, cómodo y preparado para hacer de tu evento una experiencia única.</p>
+    </div>
+  </div>
+</section>
+
+<div class="divider divider-alt"><svg viewBox="0 0 200 20" class="divider-svg"><path d="M0 10 C 40 -5, 60 25, 100 10 C 140 -5, 160 25, 200 10" fill="none" stroke="currentColor" stroke-width="1"/><circle cx="100" cy="10" r="3" fill="currentColor"/></svg></div>
+
+<section class="section history reveal" id="historia">
+  <div class="container welcome-grid reversed">
+    <div class="welcome-text">
+      <span class="eyebrow">Nuestra historia</span>
+      <h2>Nacido de un sueño boliviano</h2>
+      <p>EVENTOS BOLIVIA nació del sueño de una familia que quiso crear un espacio donde la tradición y la modernidad se encuentran. Un lugar hecho con esfuerzo, cariño y una historia inspiradora detrás.</p>
+      <p>Hoy somos el escenario de cientos de historias: bodas, fiestas de quince años, aniversarios y encuentros empresariales, todos recibidos con el mismo cariño del primer día.</p>
+    </div>
+    <div class="welcome-img-wrap">
+      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Basilica%20Menor%20de%20San%20Lorenzo%20Santa%20Cruz%20de%20la%20Sierra.jpg?width=700" alt="Arquitectura colonial de Santa Cruz, Bolivia">
+      <div class="welcome-frame gold"></div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"><svg viewBox="0 0 200 20" class="divider-svg"><path d="M0 10 C 40 -5, 60 25, 100 10 C 140 -5, 160 25, 200 10" fill="none" stroke="currentColor" stroke-width="1"/><circle cx="100" cy="10" r="3" fill="currentColor"/></svg></div>
+
+<section class="section spaces" id="espacios">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow eyebrow-center">Nuestros espacios</span>
+      <h2>Dos niveles, un mismo cariño</h2>
+    </div>
+    <div class="spaces-grid">
+      <div class="space-card">
+        <img src="Imagen15.png">
+        <div class="space-body">
+          <h3>Planta baja</h3>
+          <p>Climatizado, elegante y con capacidad hasta 300 personas. Pista de baile, iluminación y decoracion.</p>
+          <button class="btn btn-outline-dark space-toggle">Ver más</button>
+          <div class="space-more">
+            <ul>
+              <li>Capacidad: 25 mesas – 200 personas</li>
+              <li>Aire acondicionado y sonido profesional</li>
+              <li>Mesa principal y Pista de baile</li>
+              <li>Cocina preparada con dos mesadas y una bacha.</li>
+              <li>Bar con dos friser, mesadas con bacha</li>
+              <li>Baños de mujeres y hombres</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="space-card">
+        <div class="space-card">
+          <img src="Imagen17.png">
+          <div class="space-body">
+            <h3>Primer &amp; Nivel</h3>
+            <p>Excelente vista, ambiente único y el espacio perfecto para crear recuerdos inolvidables. Ven a celebrar tus momentos más especiales con nosotros y disfruta de una experiencia que quedará para siempre.</p>
+            <button class="btn btn-outline-dark space-toggle">Ver más</button>
+            <div class="space-more">
+            <ul>
+              <li>Escenario amplio</li>
+              <li>Balcones laterales</li>
+              <li>Espacio comodos y exselente vista a la pista de baile</li>
+              <li>Capacidad para 15 mesas y 150 personas</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider divider-alt"><svg viewBox="0 0 200 20" class="divider-svg"><path d="M0 10 C 40 -5, 60 25, 100 10 C 140 -5, 160 25, 200 10" fill="none" stroke="currentColor" stroke-width="1"/><circle cx="100" cy="10" r="3" fill="currentColor"/></svg></div>
+
+<section class="section events" id="eventos">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow eyebrow-center">Nuestros eventos</span>
+      <h2>Celebramos todo tipo de eventos</h2>
+    </div>
+    <div class="events-grid">
+      <div class="event-col">
+        <h3>Sociales</h3>
+        <ul class="event-list">
+          <li>Bodas</li>
+          <li>Fiesta de 15 Años</li>
+          <li>Bautizos</li>
+          <li>Primera Comunión</li>
+          <li>Aniversarios</li>
+          <li>Baby Showers</li>
+        </ul>
+      </div>
+      <div class="event-col">
+        <h3>Corporativos</h3>
+        <ul class="event-list">
+          <li>Lanzamiento de Productos</li>
+          <li>Capacitaciones</li>
+          <li>Team Building</li>
+          <li>Fiestas de Fin de Año</li>
+          <li>Conferencias</li>
+          <li>Ferias Empresariales</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"><svg viewBox="0 0 200 20" class="divider-svg"><path d="M0 10 C 40 -5, 60 25, 100 10 C 140 -5, 160 25, 200 10" fill="none" stroke="currentColor" stroke-width="1"/><circle cx="100" cy="10" r="3" fill="currentColor"/></svg></div>
+
+<section class="section offer" id="ofrecemos">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow eyebrow-center">¿Qué ofrecemos?</span>
+      <h2>Todo lo que tu evento necesita</h2>
+    </div>
+    <div class="offer-grid">
+      <div class="offer-card">
+        <h4>Planta baja</h4>
+        <ul>
+          <li>Salón elegante y climatizado</li>
+          <li>Capacidad para hasta 300 invitados</li>
+          <li>Pista de baile iluminada</li>
+          <li>Escenario para presentaciones</li>
+        </ul>
+      </div>
+      <div class="offer-card">
+        <h4>Decoración Personalizada</h4>
+        <ul>
+          <li>Decoración temática</li>
+          <li>Centros de mesa exclusivos</li>
+          <li>Arreglos florales naturales</li>
+          <li>Fondo para fotografías</li>
+        </ul>
+      </div>
+      <div class="offer-card">
+        <h4>Gastronomía y Atención</h4>
+        <ul>
+          <li>Catering </li>
+          <li>Barra de bebidas</li>
+          <li>Servicio de meseros</li>
+          <li>Menú personalizado</li>
+        </ul>
+      </div>
+      <div class="offer-card">
+        <h4>Servicios Exclusivos</h4>
+        <ul>
+          <li>Maestro de ceremonias y animación</li>
+          <li>Alquiler de vajillas</li>
+          <li>Seguridad y monitoreo</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider divider-alt"><svg viewBox="0 0 200 20" class="divider-svg"><path d="M0 10 C 40 -5, 60 25, 100 10 C 140 -5, 160 25, 200 10" fill="none" stroke="currentColor" stroke-width="1"/><circle cx="100" cy="10" r="3" fill="currentColor"/></svg></div>
+
+<section class="section gallery" id="galeria">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow eyebrow-center">Galería</span>
+      <h2>¡Que tu evento sea inolvidable!</h2>
+    </div>
+    <div class="gallery-grid" id="galleryGrid">
+      <img src="Imagen18.png" alt="Plaza principal de Santa Cruz de la Sierra" class="gallery-item">
+      <img src="Imagen19.png" alt="Jardín botánico en Bolivia" class="gallery-item">
+      <img src="Imagen20.png" alt="Zona de Equipetrol de noche" class="gallery-item">
+      <img src="Imagen21.png" alt="Baile tradicional del oriente boliviano" class="gallery-item">
+      <img src="Imagen22.png" alt="Vestimenta tradicional boliviana" class="gallery-item">
+      <img src="Imagen23.png" alt="Salón elegante en Santa Cruz" class="gallery-item">
+      <img src="Imagen24.png" alt="Santa Cruz de noche" class="gallery-item">
+      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/The%20Salar%20De%20Uyuni%20Uyuni%20Flags%20Salt%20Desert%20Bolivia.jpg?width=500" alt="Salar de Uyuni, Bolivia" class="gallery-item">
+    </div>
+  </div>
+</section>
+
+<div class="divider"><svg viewBox="0 0 200 20" class="divider-svg"><path d="M0 10 C 40 -5, 60 25, 100 10 C 140 -5, 160 25, 200 10" fill="none" stroke="currentColor" stroke-width="1"/><circle cx="100" cy="10" r="3" fill="currentColor"/></svg></div>
+
+<section class="section contact" id="contacto">
+  <div class="container contact-grid">
+    <div class="contact-info">
+      <span class="eyebrow">Contacto</span>
+      <h2>Contanos de tu evento</h2>
+      <p>Escribinos y armamos juntos la celebración que estás imaginando. Te respondemos a la brevedad.</p>
+      <div class="contact-item"><strong>Dirección</strong><span>Calle 4. #5420 Barrio la Victoria, entre calles 10/11; Monte Grande</span></div>
+      <div class="contact-item"><strong>Teléfono</strong><span>11 5461-6975</span></div>
+      <div class="contact-item"><strong>Correo</strong><span>eventosbolivia2026@gmail.com</span></div>
+      <div class="contact-item"><strong>Horario</strong><span>Lunes a Domingo, 24 Horas (con cita previa)</span></div>
+
+      <div class="quick-actions">
+        <a class="quick-btn quick-call" href="tel:+5491154616975">📞 Llamar ahora</a>
+        <a class="quick-btn quick-wsp" href="https://wa.me/5491154616975?text=Hola%2C%20quiero%20consultar%20sobre%20un%20evento" target="_blank" rel="noopener">💬 WhatsApp</a>
+      </div>
+
+      <div class="social-row">
+        <a href="https://www.instagram.com/eventosbolivia2026/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/share/1Y7LmPaGFD/" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.tiktok.com/@bolivia.eventos3" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+      </div>
+    </div>
+
+    <form class="contact-form" id="contactForm">
+      <div class="two-col">
+        <div class="form-row">
+          <label for="fName">Nombre y apellido</label>
+          <input id="fName" type="text" placeholder="Tu nombre" required>
+        </div>
+        <div class="form-row">
+          <label for="fEmail">Correo (Gmail)</label>
+          <input id="fEmail" type="email" placeholder="tunombre@gmail.com" required>
+        </div>
+      </div>
+      <div class="two-col">
+        <div class="form-row">
+          <label for="fPhone">Teléfono</label>
+          <input id="fPhone" type="tel" placeholder="+591 700 00000" required>
+        </div>
+        <div class="form-row">
+          <label for="fType">Tipo de evento</label>
+          <select id="fType" required>
+            <option value="">Elegir...</option>
+            <option>Boda</option>
+            <option>Fiesta de 15 Años</option>
+            <option>Bautizo</option>
+            <option>Aniversario</option>
+            <option>Evento corporativo</option>
+            <option>Otro</option>
+          </select>
+        </div>
+      </div>
+      <div class="two-col">
+        <div class="form-row">
+          <label for="fDate">Fecha estimada</label>
+          <input id="fDate" type="date">
+        </div>
+        <div class="form-row">
+          <label for="fGuests">N° de invitados</label>
+          <input id="fGuests" type="number" min="1" placeholder="Ej. 150">
+        </div>
+      </div>
+      <div class="form-row">
+        <label for="fMsg">Mensaje</label>
+        <input id="fMsg" type="text" placeholder="Contanos un poco más...">
+      </div>
+      <div class="form-actions">
+        <button type="submit" class="btn btn-gold" style="width:100%; justify-content:center;">Enviar por WhatsApp</button>
+        <button type="button" class="btn btn-outline-light" id="sendEmailBtn" style="width:100%; justify-content:center;">Enviar por correo</button>
+      </div>
+      <p class="form-confirm" id="formConfirm">✓ ¡Gracias! Tu consulta fue enviada, te contactaremos pronto.</p>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="container footer-grid">
+    <div>
+      <a href="#inicio" class="logo footer-logo"><span>EVENTOS</span> BOLIVIA</a>
+      <p>Salón de eventos en Buenos Aires. Bodas, fiestas y encuentros con el alma de Bolivia.</p>
+    </div>
+    <div>
+      <h4>Enlaces</h4>
+      <a href="#espacios">Espacios</a>
+      <a href="#eventos">Eventos</a>
+      <a href="#galeria">Galería</a>
+      <a href="#contacto">Contacto</a>
+    </div>
+    <div>
+      <h4>Seguinos</h4>
+      <a href="https://www.instagram.com/eventosbolivia2026/" target="_blank">Instagram</a>
+      <a href="https://www.facebook.com/share/1Y7LmPaGFD/" target="_blank">Facebook</a>
+      <a href="https://www.tiktok.com/@bolivia.eventos3" target="_blank">TikTok</a>
+    </div>
+  </div>
+  <div class="container bottom-bar">
+    <span>© 2026 EVENTOS BOLIVIA — Todos los derechos reservados</span>
+    <span>Fotografías de Eventos Bolivia.</span>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Cerrar">&times;</button>
+  <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Anterior">&#10094;</button>
+  <img src="" alt="" id="lightboxImg">
+  <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Siguiente">&#10095;</button>
+</div>
+
+<div class="toast" id="toast"><span class="dot"></span><span id="toastText">Listo</span></div>
+
+<!-- Botones flotantes de contacto rápido -->
+<div class="floating-actions">
+  <a class="fab fab-call" href="tel:+5491154616975" aria-label="Llamar ahora">📞</a>
+  <a class="fab fab-wsp" href="https://wa.me/5491154616975?text=Hola%2C%20quiero%20consultar%20sobre%20un%20evento" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
